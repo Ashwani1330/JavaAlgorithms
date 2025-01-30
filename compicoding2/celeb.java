@@ -11,7 +11,7 @@ class Main{
             }
         }
         int cid=new Solution().findCelebrity(rm,N);
-        System.out.println(cid!=-1?"Celebrity id:"+cid+"No Celebrity");
+        System.out.println(cid!=-1?"Celebrity id:"+cid:"No Celebrity"); //changed + to : to resolve ternary operator 
     }
 }
 
